@@ -1,36 +1,38 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Happy Valentine's Day!
+description: A special greeting page for celebrating love.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Will you be my Valentine?
   image:
-    file: ../../assets/houston.webp
+    # Replace with your own image path or URL if needed
+    file: /assets/valentine.jpg
   actions:
-    - text: Example Guide
-      link: /guides/example/
-      icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: I’m in!
+      link: /yes-response/
+      icon: heart
+    - text: Maybe later
+      link: /no-response/
+      icon: sad
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Customize Your Valentine’s Message
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Your HTML File" icon="code">
+    Edit <code>valentine.html</code> to customize the look and message of your greeting page.
+  </Card>
+  <Card title="Share the Love" icon="share">
+    Deploy your page (for example, on Netlify) so friends and family can easily open it on any device.
+  </Card>
+  <Card title="Collect Responses" icon="mail">
+    Integrate a form or use Google Forms to collect responses from visitors.
+  </Card>
+  <Card title="Get Inspired" icon="sparkles">
+    Explore new design ideas to make your Valentine’s page extra special.
+  </Card>
 </CardGrid>
+
